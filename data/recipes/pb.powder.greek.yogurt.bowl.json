@@ -1,0 +1,28 @@
+{
+  "title": "PB Powder Greek Yogurt Bowl",
+  "description": "High-protein, low-effort lunch bowl built on plain Greek yogurt and powdered peanut butter, with a choice of fresh fruit, jam, or maple syrup for sweetness",
+  "prepTime": "5 minutes",
+  "cookTime": "0 minutes",
+  "servings": 1,
+  "difficulty": "Easy",
+  "tags": ["high-protein", "no-cook", "lunch", "quick"],
+  "ingredients": [
+    "1 cup (245g) plain 0% Greek yogurt",
+    "2 tbsp (16g) powdered peanut butter",
+    "1.5 tbsp (22ml) water",
+    "1/2 cup (62g) fresh raspberries (or berry of choice)"
+  ],
+  "instructions": [
+    "In a small bowl, whisk 2 tbsp (16g) powdered peanut butter with 1.5 tbsp (22ml) water until smooth and no lumps remain.",
+    "Spoon 1 cup (245g) plain 0% Greek yogurt into a serving bowl.",
+    "Swirl the peanut butter mixture through the yogurt.",
+    "Top with 1/2 cup (62g) fresh raspberries and serve immediately."
+  ],
+  "macros": {
+    "calories": 213,
+    "protein": 30,
+    "carbs": 15,
+    "fat": 3
+  },
+  "notes": "Sweetener options, swap for the fresh raspberries above:\n\n1) FRESH FRUIT (lowest sugar, most volume): 1/2 cup (62g) raspberries [+12g carbs, +4g fibre] · 1/2 cup (74g) blueberries [+11g carbs, +2g fibre, slightly more sugar] · 1/2 cup (83g) sliced strawberries [+6g carbs, lowest calorie density].\n\n2) JAM (go no-added-sugar): 1 tbsp (20g) no-added-sugar strawberry, raspberry, blackberry, or cherry jam adds roughly 20-30 cal and 5-7g carbs, almost entirely sugar, with no fibre. More concentrated flavor, less food volume than fresh fruit.\n\n3) MAPLE SYRUP: 1-2 tsp (7-14g) maple syrup adds roughly 20-40 cal and 5-9g carbs, no fibre. Simplest option, no fruit prep needed.\n\nAll three options land in a similar calorie/carb range in small amounts — pick based on whether you want fibre and volume (fresh fruit), concentrated flavor (jam), or simplicity (maple)."
+}
