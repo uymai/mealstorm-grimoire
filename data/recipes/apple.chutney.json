@@ -1,0 +1,35 @@
+{
+  "title": "Apple Chutney",
+  "description": "Sweet-tangy apple chutney, great with pork, cheese boards, or curry night.",
+  "prepTime": "15 minutes",
+  "cookTime": "45 minutes",
+  "servings": 6,
+  "difficulty": "Easy",
+  "tags": ["testing", "condiment", "vegan", "gluten-free"],
+  "ingredients": [
+    "4 medium apples, peeled and diced (tart, such as Granny Smith)",
+    "1 medium yellow onion, diced",
+    "3/4 cup (180 ml) apple cider vinegar",
+    "1/2 cup (120 ml) maple syrup",
+    "1/3 cup (48g) raisins",
+    "1 tbsp fresh ginger, minced",
+    "1/2 tsp ground cinnamon",
+    "1/4 tsp ground cloves",
+    "1/2 tsp mustard seeds",
+    "1/2 tsp salt",
+    "1/4 tsp red chili flakes (optional)"
+  ],
+  "instructions": [
+    "In a saucepan, combine 4 medium apples (peeled and diced), 1 medium yellow onion (diced), 3/4 cup (180 ml) apple cider vinegar, 1/2 cup (120 ml) maple syrup, 1/3 cup (48g) raisins, 1 tbsp fresh ginger (minced), 1/2 tsp ground cinnamon, 1/4 tsp ground cloves, 1/2 tsp mustard seeds, 1/2 tsp salt, and 1/4 tsp red chili flakes (optional).",
+    "Bring to a boil over medium-high heat, then reduce to a low simmer.",
+    "Simmer uncovered for 45 minutes, stirring occasionally (more often near the end) until thick, jammy, and most of the liquid has reduced.",
+    "Remove from heat, cool to room temperature, then transfer to a jar and refrigerate."
+  ],
+  "macros": {
+    "calories": 171,
+    "protein": 1,
+    "carbs": 43,
+    "fat": 0
+  },
+  "notes": "Macros are per 1/6 batch (~3 tbsp serving as a condiment, not a meal). Maple syrup used in place of the original brown sugar per your standing sweetener preference. This is carb-heavy and protein-negligible by design — it's a condiment, not something to lean on for your protein/fat targets."
+}
