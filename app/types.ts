@@ -11,6 +11,22 @@ export interface RecipeInspiredBy {
   url?: string;
 }
 
+export interface RecipeMatrixRow {
+  ingredient: string;
+  // Index into RecipeMatrix.columns where this row's line starts and runs
+  // rightward to the final cell; -1 = joins only at the final cell.
+  joinAt: number;
+}
+
+export interface RecipeMatrix {
+  columns: string[];
+  rows: RecipeMatrixRow[];
+  final: {
+    label: string;
+    detail: string;
+  };
+}
+
 export interface Recipe {
   title: string;
   description: string;
@@ -24,4 +40,5 @@ export interface Recipe {
   instructions: string[];
   notes?: string;
   macros: RecipeMacros;
+  matrix?: RecipeMatrix;
 }

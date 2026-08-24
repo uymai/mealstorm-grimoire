@@ -4,6 +4,7 @@ import { useState, useEffect, useMemo, Suspense, useRef, useCallback } from 'rea
 import { useSearchParams } from 'next/navigation';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import RecipeMatrix from './components/RecipeMatrix';
 import type { Recipe } from './types';
 
 type WakeLockSentinelLike = {
@@ -25,6 +26,7 @@ function RecipesContent() {
   const [selectedTag, setSelectedTag] = useState('');
   const [isLoading, setIsLoading] = useState(true);
   const [selectedRecipe, setSelectedRecipe] = useState<Recipe | null>(null);
+  const [viewMode, setViewMode] = useState<'standard' | 'matrix'>('standard');
 
   // Pinned recipes for cook mode
   const [pinnedRecipes, setPinnedRecipes] = useState<Recipe[]>([]);
@@ -132,6 +134,13 @@ function RecipesContent() {
       }
     }
   }, [searchParams, recipes]);
+
+  // Reset to standard view whenever the selected recipe changes, so
+  // navigating away from a matrix-formatted recipe doesn't strand the
+  // viewer on an empty matrix view for a recipe that lacks one.
+  useEffect(() => {
+    setViewMode('standard');
+  }, [selectedRecipe?.title]);
 
   // Derived pinned-view state
   const currentPinnedIndex = selectedRecipe
@@ -655,6 +664,20 @@ function RecipesContent() {
                     <span className={`inline-block w-2.5 h-2.5 rounded-full ${stayOnEnabled ? 'bg-white' : 'bg-gray-400 dark:bg-gray-300'}`} aria-hidden="true"></span>
                     <span className="text-sm tracking-wide">{wakeLockSupported ? (stayOnEnabled ? 'Stay On: ON' : 'Stay On: OFF') : 'Stay On: N/A'}</span>
                   </button>
+                  {selectedRecipe.matrix && (
+                    <button
+                      onClick={() => setViewMode(viewMode === 'matrix' ? 'standard' : 'matrix')}
+                      aria-pressed={viewMode === 'matrix'}
+                      className={`px-3 py-1 rounded-lg transition-colors text-sm flex items-center gap-1 border font-medium ${
+                        viewMode === 'matrix'
+                          ? 'bg-blue-500 text-white border-blue-600 hover:bg-blue-600'
+                          : 'bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-100 border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-600'
+                      }`}
+                      title={viewMode === 'matrix' ? 'Switch to standard view' : 'Switch to formula matrix view'}
+                    >
+                      ⊞ {viewMode === 'matrix' ? 'Standard View' : 'Matrix View'}
+                    </button>
+                  )}
                   <button
                     onClick={() => copyRecipeUrl(selectedRecipe)}
                     className="px-3 py-1 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors text-sm flex items-center gap-1"
@@ -712,30 +735,34 @@ function RecipesContent() {
                 ))}
               </div>
 
-              <div className="grid md:grid-cols-2 gap-8">
-                <div>
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Ingredients</h3>
-                  <ul className="space-y-2">
-                    {selectedRecipe.ingredients.map((ingredient, index) => (
-                      <li key={index} className="flex items-start text-gray-700 dark:text-gray-300">
-                        <span className="mr-2 text-blue-500">•</span>
-                        <span>{ingredient}</span>
-                      </li>
-                    ))}
-                  </ul>
+              {viewMode === 'matrix' && selectedRecipe.matrix ? (
+                <RecipeMatrix matrix={selectedRecipe.matrix} />
+              ) : (
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Ingredients</h3>
+                    <ul className="space-y-2">
+                      {selectedRecipe.ingredients.map((ingredient, index) => (
+                        <li key={index} className="flex items-start text-gray-700 dark:text-gray-300">
+                          <span className="mr-2 text-blue-500">•</span>
+                          <span>{ingredient}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Instructions</h3>
+                    <ol className="space-y-3">
+                      {selectedRecipe.instructions.map((instruction, index) => (
+                        <li key={index} className="flex text-gray-700 dark:text-gray-300">
+                          <span className="mr-3 font-semibold text-blue-500 min-w-[2rem]">{index + 1}.</span>
+                          <span>{instruction}</span>
+                        </li>
+                      ))}
+                    </ol>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Instructions</h3>
-                  <ol className="space-y-3">
-                    {selectedRecipe.instructions.map((instruction, index) => (
-                      <li key={index} className="flex text-gray-700 dark:text-gray-300">
-                        <span className="mr-3 font-semibold text-blue-500 min-w-[2rem]">{index + 1}.</span>
-                        <span>{instruction}</span>
-                      </li>
-                    ))}
-                  </ol>
-                </div>
-              </div>
+              )}
 
               {selectedRecipe.notes && (
                 <div className="mt-8 p-4 bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg">

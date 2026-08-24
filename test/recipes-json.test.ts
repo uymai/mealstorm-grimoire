@@ -26,4 +26,14 @@ describe('recipe JSON loading', () => {
       expect(recipe.macros.fat).toEqual(expect.any(Number));
     }
   });
+
+  it('validates matrix data for the waffles recipe', () => {
+    const recipes = loadRecipesFromDirectory(recipesDir);
+    const waffles = recipes.find((r) => r.title === 'High-Protein Cookies & Cream Waffles');
+
+    expect(waffles?.matrix).toBeDefined();
+    expect(waffles!.matrix!.columns.length).toBeGreaterThan(0);
+    expect(waffles!.matrix!.final.label).toEqual(expect.any(String));
+    expect(waffles!.matrix!.final.detail).toEqual(expect.any(String));
+  });
 });

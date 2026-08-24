@@ -26,6 +26,25 @@
     "Pour half the batter (roughly 1/2 cup) onto the iron, close, and cook 3–4 minutes until steam subsides and waffles release cleanly.",
     "Repeat with remaining batter. Serve immediately or cool on a rack to freeze."
   ],
+  "matrix": {
+    "columns": ["Mix Dry", "Mix Wet", "Combine"],
+    "rows": [
+      { "ingredient": "whey protein", "joinAt": 0 },
+      { "ingredient": "oat flour", "joinAt": 0 },
+      { "ingredient": "baking powder", "joinAt": 0 },
+      { "ingredient": "salt", "joinAt": 0 },
+      { "ingredient": "eggs", "joinAt": 1 },
+      { "ingredient": "milk", "joinAt": 1 },
+      { "ingredient": "Greek yogurt", "joinAt": 1 },
+      { "ingredient": "vanilla extract", "joinAt": 1 },
+      { "ingredient": "maple syrup", "joinAt": 1 },
+      { "ingredient": "cooking spray", "joinAt": -1 }
+    ],
+    "final": {
+      "label": "Cook",
+      "detail": "Preheated waffle iron, 3–4 min per waffle"
+    }
+  },
   "macros": {
     "calories": 370,
     "protein": 42,

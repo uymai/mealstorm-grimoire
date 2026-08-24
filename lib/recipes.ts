@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-import type { Recipe } from '../app/types';
+import type { Recipe, RecipeMatrix } from '../app/types';
 
 export function generateRecipeSlug(title: string): string {
   return title.toLowerCase()
@@ -40,6 +40,22 @@ export function isValidRecipe(value: unknown): value is Recipe {
        typeof (recipe.inspiredBy as { source?: unknown }).source === 'string' &&
        ((recipe.inspiredBy as { url?: unknown }).url === undefined ||
         typeof (recipe.inspiredBy as { url?: unknown }).url === 'string'))) &&
+    (recipe.matrix === undefined ||
+      (typeof recipe.matrix === 'object' &&
+       recipe.matrix !== null &&
+       Array.isArray((recipe.matrix as RecipeMatrix).columns) &&
+       (recipe.matrix as RecipeMatrix).columns.length > 0 &&
+       (recipe.matrix as RecipeMatrix).columns.every((c) => typeof c === 'string') &&
+       Array.isArray((recipe.matrix as RecipeMatrix).rows) &&
+       (recipe.matrix as RecipeMatrix).rows.length > 0 &&
+       (recipe.matrix as RecipeMatrix).rows.every((r) =>
+         typeof r.ingredient === 'string' &&
+         typeof r.joinAt === 'number' &&
+         r.joinAt >= -1 &&
+         r.joinAt < (recipe.matrix as RecipeMatrix).columns.length
+       ) &&
+       typeof (recipe.matrix as RecipeMatrix).final?.label === 'string' &&
+       typeof (recipe.matrix as RecipeMatrix).final?.detail === 'string')) &&
     recipe.macros !== undefined &&
     typeof recipe.macros.calories === 'number' &&
     typeof recipe.macros.protein === 'number' &&
