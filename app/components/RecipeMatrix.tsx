@@ -4,34 +4,41 @@ interface RecipeMatrixProps {
   matrix: RecipeMatrixData;
 }
 
+// Finds which row a column's stage label should be attached to: the topmost
+// row where a new group joins that column, or (for a pure-merge column with
+// no fresh joiners, e.g. a "combine" stage) the topmost row simply active in
+// that column.
+function labelOwnerRow(rows: RecipeMatrixRow[], colIndex: number): number {
+  const freshJoin = rows.findIndex((r) => r.joinAt === colIndex);
+  if (freshJoin !== -1) return freshJoin;
+  return rows.findIndex((r) => r.joinAt !== -1 && r.joinAt <= colIndex);
+}
+
 export default function RecipeMatrix({ matrix }: RecipeMatrixProps) {
   const { columns, rows, final } = matrix;
   const stageCount = columns.length;
   const gridTemplateColumns = `minmax(8rem, auto) repeat(${stageCount}, minmax(5rem, 1fr)) minmax(9rem, auto)`;
+  const labelOwnerRows = columns.map((_, colIndex) => labelOwnerRow(rows, colIndex));
 
   return (
     <div>
       <p className="mb-2 text-xs text-gray-400 dark:text-gray-500 sm:hidden">Scroll for full matrix →</p>
       <div className="overflow-x-auto rounded-lg border border-gray-200 dark:border-gray-700">
         <div className="grid text-xs sm:text-sm" style={{ gridTemplateColumns }}>
-          <div className="sticky top-0 z-10 bg-white dark:bg-gray-800 border-b border-gray-300 dark:border-gray-600 px-2 py-2" />
-          {columns.map((label, colIndex) => (
-            <div
-              key={`col-${colIndex}`}
-              className="sticky top-0 z-10 bg-white dark:bg-gray-800 border-b border-gray-300 dark:border-gray-600 px-2 py-2 text-center font-semibold text-gray-900 dark:text-white"
-            >
-              {label}
-            </div>
-          ))}
-          <div className="sticky top-0 z-10 bg-white dark:bg-gray-800 border-b border-gray-300 dark:border-gray-600 px-2 py-2" />
-
           {rows.map((row, rowIndex) => (
-            <MatrixRowCells key={rowIndex} row={row} stageCount={stageCount} gridRow={rowIndex + 2} />
+            <MatrixRowCells
+              key={rowIndex}
+              row={row}
+              columns={columns}
+              gridRow={rowIndex + 1}
+              labelOwnerRows={labelOwnerRows}
+              rowIndex={rowIndex}
+            />
           ))}
 
           <div
             className="flex flex-col justify-center items-center gap-1 border-l-2 border-blue-400 dark:border-blue-600 bg-blue-50 dark:bg-blue-950/40 px-3 py-2 text-center"
-            style={{ gridColumn: stageCount + 2, gridRow: `2 / span ${rows.length}` }}
+            style={{ gridColumn: stageCount + 2, gridRow: `1 / span ${rows.length}` }}
           >
             <span className="font-semibold text-gray-900 dark:text-white">{final.label}</span>
             <span className="text-gray-600 dark:text-gray-300">{final.detail}</span>
@@ -44,12 +51,16 @@ export default function RecipeMatrix({ matrix }: RecipeMatrixProps) {
 
 function MatrixRowCells({
   row,
-  stageCount,
+  columns,
   gridRow,
+  labelOwnerRows,
+  rowIndex,
 }: {
   row: RecipeMatrixRow;
-  stageCount: number;
+  columns: string[];
   gridRow: number;
+  labelOwnerRows: number[];
+  rowIndex: number;
 }) {
   return (
     <>
@@ -59,19 +70,24 @@ function MatrixRowCells({
       >
         {row.ingredient}
       </div>
-      {Array.from({ length: stageCount }, (_, colIndex) => {
+      {columns.map((label, colIndex) => {
         const active = row.joinAt !== -1 && colIndex >= row.joinAt;
         const isFirstActive = active && colIndex === row.joinAt;
+        const showLabel = labelOwnerRows[colIndex] === rowIndex;
         return (
           <div
             key={colIndex}
             style={{ gridColumn: colIndex + 2, gridRow }}
-            className={
-              active
-                ? `border-t border-b border-blue-300 dark:border-blue-700 ${isFirstActive ? 'border-l' : ''}`
-                : ''
-            }
-          />
+            className={`relative min-h-[2.25rem] ${
+              active ? `border-t border-b border-blue-300 dark:border-blue-700 ${isFirstActive ? 'border-l' : ''}` : ''
+            }`}
+          >
+            {showLabel && (
+              <span className="absolute top-0.5 left-1 text-[10px] font-semibold uppercase tracking-wide text-blue-700 dark:text-blue-300">
+                {label}
+              </span>
+            )}
+          </div>
         );
       })}
     </>

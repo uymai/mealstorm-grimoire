@@ -29,15 +29,15 @@
   "matrix": {
     "columns": ["Mix Dry", "Mix Wet", "Combine"],
     "rows": [
-      { "ingredient": "whey protein", "joinAt": 0 },
-      { "ingredient": "oat flour", "joinAt": 0 },
-      { "ingredient": "baking powder", "joinAt": 0 },
-      { "ingredient": "salt", "joinAt": 0 },
-      { "ingredient": "eggs", "joinAt": 1 },
-      { "ingredient": "milk", "joinAt": 1 },
-      { "ingredient": "Greek yogurt", "joinAt": 1 },
-      { "ingredient": "vanilla extract", "joinAt": 1 },
-      { "ingredient": "maple syrup", "joinAt": 1 },
+      { "ingredient": "2 scoops (66g) whey protein", "joinAt": 0 },
+      { "ingredient": "1/2 cup (60g) oat flour", "joinAt": 0 },
+      { "ingredient": "1 tsp baking powder", "joinAt": 0 },
+      { "ingredient": "1/4 tsp salt", "joinAt": 0 },
+      { "ingredient": "2 eggs", "joinAt": 1 },
+      { "ingredient": "1/2 cup (120ml) milk", "joinAt": 1 },
+      { "ingredient": "1/4 cup (60g) Greek yogurt", "joinAt": 1 },
+      { "ingredient": "1 tsp vanilla extract", "joinAt": 1 },
+      { "ingredient": "1 tsp maple syrup", "joinAt": 1 },
       { "ingredient": "cooking spray", "joinAt": -1 }
     ],
     "final": {
