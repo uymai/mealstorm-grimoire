@@ -1,0 +1,33 @@
+{
+  "title": "Greek Lemon Potatoes",
+  "description": "Oven-roasted potatoes braised in lemon, garlic, and oregano until crispy outside, creamy inside",
+  "prepTime": "10 minutes",
+  "cookTime": "75 minutes",
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": ["greek", "side dish", "potatoes", "lemon", "roasted", "vegetarian"],
+  "ingredients": [
+    "2 lb russet or Yukon gold potatoes, peeled and cut into wedges",
+    "1/3 cup olive oil",
+    "1 cup chicken or vegetable stock",
+    "2 lemons, juiced",
+    "4 garlic cloves, minced",
+    "1 1/2 tbsp dried oregano",
+    "1 tsp salt",
+    "1/2 tsp black pepper"
+  ],
+  "instructions": [
+    "Preheat oven to 425°F (220°C). Arrange 2 lb potato wedges in a single layer in a large baking dish.",
+    "Whisk together 1/3 cup olive oil, 1 cup stock, the juice of 2 lemons, 4 minced garlic cloves, 1 1/2 tbsp dried oregano, 1 tsp salt, and 1/2 tsp black pepper. Pour over the potatoes and toss to coat.",
+    "Cover tightly with foil and bake for 45 minutes so the potatoes soften and absorb the liquid.",
+    "Remove foil, flip the potatoes, and continue baking for 30 minutes until the liquid mostly evaporates and the tops turn golden and crisp.",
+    "Let rest 5 minutes, then spoon any remaining pan sauce over the top before serving."
+  ],
+  "macros": {
+    "calories": 340,
+    "protein": 4,
+    "carbs": 34,
+    "fat": 20
+  },
+  "notes": "If the potatoes still look wet after the uncovered bake, broil for 3-5 minutes to crisp them up. These pair perfectly with the tzatziki you're already making."
+}

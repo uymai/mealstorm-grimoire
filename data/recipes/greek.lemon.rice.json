@@ -1,0 +1,32 @@
+{
+  "title": "Greek Lemon Rice",
+  "description": "Buttery, lemony rice with a hit of garlic and dill — the classic taverna side",
+  "prepTime": "5 minutes",
+  "cookTime": "20 minutes",
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": ["greek", "side dish", "rice", "lemon", "vegetarian"],
+  "ingredients": [
+    "1 cup long-grain rice (like basmati)",
+    "2 tbsp butter",
+    "1 tbsp olive oil",
+    "2 garlic cloves, minced",
+    "2 cups chicken or vegetable stock",
+    "1 lemon, juiced and zested",
+    "2 tbsp fresh dill, chopped",
+    "1/2 tsp salt"
+  ],
+  "instructions": [
+    "Melt 2 tbsp butter and 1 tbsp olive oil in a saucepan over medium heat. Add 2 minced garlic cloves and cook 30 seconds until fragrant. Add 1 cup rice and stir to coat, toasting for 1-2 minutes.",
+    "Pour in 2 cups stock and 1/2 tsp salt. Bring to a boil, then cover, reduce heat to low, and simmer for 15 minutes.",
+    "Remove from heat and let stand, covered, without lifting the lid, for 5 minutes.",
+    "Fluff with a fork, then stir in the juice and zest of 1 lemon and 2 tbsp chopped dill. Taste and adjust salt."
+  ],
+  "macros": {
+    "calories": 260,
+    "protein": 4,
+    "carbs": 38,
+    "fat": 10
+  },
+  "notes": "For extra flavor, swap 1 tbsp of the butter for the fat rendered off your souvlaki skewers if you're grilling."
+}
