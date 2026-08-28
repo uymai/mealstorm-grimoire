@@ -1,0 +1,31 @@
+{
+  "title": "Maple Air Fryer Delicata Squash",
+  "description": "Caramelized delicata squash rings, air fried while the oven stays free for other dishes.",
+  "prepTime": "5 minutes",
+  "cookTime": "15 minutes",
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": ["side dish", "air fryer", "vegetable", "testing"],
+  "ingredients": [
+    "1 medium delicata squash (about 400g)",
+    "1 tbsp (15 ml) extra virgin olive oil",
+    "1 tbsp (15 ml) maple syrup",
+    "1/4 tsp salt",
+    "1/8 tsp black pepper"
+  ],
+  "instructions": [
+    "Preheat air fryer to 400°F (204°C).",
+    "Halve 1 medium delicata squash (about 400g) lengthwise, scoop out the seeds, and slice into 1/2-inch half-moons (skin on — it's edible).",
+    "In a bowl, toss the squash slices with 1 tbsp (15 ml) extra virgin olive oil, 1 tbsp (15 ml) maple syrup, 1/4 tsp salt, and 1/8 tsp black pepper until evenly coated.",
+    "Arrange squash in a single layer in the air fryer basket, working in batches if it doesn't fit at once.",
+    "Air fry at 400°F for 12–15 minutes, flipping halfway through, until edges are caramelized and squash is fork-tender.",
+    "Serve warm."
+  ],
+  "macros": {
+    "calories": 83,
+    "protein": 1,
+    "carbs": 13,
+    "fat": 4
+  },
+  "notes": "Skin is edible, no peeling needed. Skip the maple for a lower-carb version — salt, pepper, and oil alone still caramelize nicely at this temp."
+}
