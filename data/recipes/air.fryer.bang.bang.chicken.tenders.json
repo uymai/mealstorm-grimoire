@@ -1,0 +1,42 @@
+{
+  "title": "Crispy Air Fryer Bang Bang Chicken Tenders",
+  "inspiredBy": {
+    "name": "Crispy Bang Bang Chicken Tenders",
+    "source": "@hunt4shredz"
+  },
+  "description": "Cornflake-crusted air fryer chicken breast strips dipped in a Greek yogurt bang bang sauce, tuned for higher protein density.",
+  "prepTime": "15 minutes",
+  "cookTime": "15 minutes",
+  "servings": 3,
+  "difficulty": "Easy",
+  "tags": ["chicken", "air fryer", "high protein", "testing"],
+  "ingredients": [
+    "450g chicken breast, sliced into 9 strips",
+    "1 egg, whisked",
+    "50g cornflakes, crushed",
+    "1 tsp garlic powder",
+    "1 tsp onion powder",
+    "Salt & pepper, to taste",
+    "10 sprays cooking oil",
+    "100g 0% fat Greek yogurt",
+    "15g sweet chilli sauce",
+    "1 tsp sriracha",
+    "10g maple syrup"
+  ],
+  "instructions": [
+    "Slice 450g chicken breast into 9 strips. Season with salt, pepper, 1 tsp garlic powder, and 1 tsp onion powder.",
+    "Set up 2 bowls: whisk 1 egg in the first, add 50g crushed cornflakes to the second.",
+    "Dip each strip into the egg, then coat with the 50g crushed cornflakes.",
+    "Arrange the coated strips in the air fryer basket and mist with 10 sprays cooking oil.",
+    "Air fry at 400°F (200°C) for 15 minutes, flipping halfway, until golden and cooked through (internal temp 165°F/74°C).",
+    "While the chicken cooks, whisk together 100g Greek yogurt, 15g sweet chilli sauce, 1 tsp sriracha, and 10g maple syrup in a small bowl to make the bang bang sauce.",
+    "Dip or drizzle the strips in the bang bang sauce and serve immediately."
+  ],
+  "macros": {
+    "calories": 308,
+    "protein": 41,
+    "carbs": 21,
+    "fat": 6
+  },
+  "notes": "Protein density is ~13g/100kcal — still short of the 16g/100kcal target since the breaded format has a structural ceiling."
+}
