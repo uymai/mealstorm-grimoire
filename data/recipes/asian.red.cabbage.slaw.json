@@ -1,0 +1,31 @@
+{
+  "title": "Asian-Style Red Cabbage Slaw",
+  "description": "A quick, crunchy slaw with a tangy sesame-lime dressing — a light, low-fat side to cut through richer mains.",
+  "prepTime": "10 minutes",
+  "cookTime": "0 minutes",
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": ["slaw", "side dish", "no-cook", "testing"],
+  "ingredients": [
+    "300g red cabbage, shredded",
+    "100g carrot, shredded",
+    "2 tbsp rice vinegar",
+    "1 tsp sesame oil",
+    "1 tsp maple syrup",
+    "1 tbsp lime juice",
+    "Salt, to taste"
+  ],
+  "instructions": [
+    "In a large bowl, combine 300g shredded red cabbage and 100g shredded carrot.",
+    "In a small bowl, whisk together 2 tbsp rice vinegar, 1 tsp sesame oil, 1 tsp maple syrup, and 1 tbsp lime juice.",
+    "Pour the dressing over the cabbage and carrot, and toss well to coat. Season with salt to taste.",
+    "Let sit for 5-10 minutes to soften slightly, then serve as a side."
+  ],
+  "macros": {
+    "calories": 50,
+    "protein": 1,
+    "carbs": 10,
+    "fat": 1
+  },
+  "notes": "Nearly zero impact on fat or protein targets — mainly adds carbs from the cabbage, carrot, and maple syrup."
+}
