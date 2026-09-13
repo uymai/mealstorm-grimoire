@@ -14,6 +14,7 @@ Each recipe should be a JSON file with the following structure:
   "cookTime": "X minutes", 
   "servings": 4,
   "difficulty": "Easy|Medium|Hard",
+  "dateAdded": "YYYY-MM-DD",
   "tags": ["tag1", "tag2", "tag3"],
   "ingredients": [
     "ingredient 1",
@@ -35,13 +36,16 @@ Each recipe should be a JSON file with the following structure:
 
 Macro values are numeric and represent one serving of the recipe. In this collection, some values are estimated from the listed ingredients when exact nutrition labels are not available.
 
+`dateAdded` is optional and should be the date (`YYYY-MM-DD`) the recipe was added to the collection. It powers the "Newest First" sort on the recipes page; recipes without it sort to the end.
+
 ## Adding New Recipes
 
 1. Create a new JSON file in this directory
 2. Use kebab-case for the filename (e.g., `chicken-parmesan.json`)
 3. Follow the JSON structure above
 4. Use descriptive tags for better searchability
-5. Commit the file to the repository
+5. Set `dateAdded` to today's date so the recipe sorts correctly under "Newest First"
+6. Commit the file to the repository
 
 ## Tags
 

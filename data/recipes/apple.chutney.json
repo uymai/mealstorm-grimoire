@@ -5,7 +5,13 @@
   "cookTime": "45 minutes",
   "servings": 6,
   "difficulty": "Easy",
-  "tags": ["testing", "condiment", "vegan", "gluten-free"],
+  "dateAdded": "2026-08-13",
+  "tags": [
+    "testing",
+    "condiment",
+    "vegan",
+    "gluten-free"
+  ],
   "ingredients": [
     "4 medium apples, peeled and diced (tart, such as Granny Smith)",
     "1 medium yellow onion, diced",

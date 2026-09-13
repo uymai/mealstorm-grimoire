@@ -5,7 +5,14 @@
   "cookTime": "20 minutes",
   "servings": 4,
   "difficulty": "Easy",
-  "tags": ["greek", "side dish", "rice", "lemon", "vegetarian"],
+  "dateAdded": "2026-08-25",
+  "tags": [
+    "greek",
+    "side dish",
+    "rice",
+    "lemon",
+    "vegetarian"
+  ],
   "ingredients": [
     "1 cup long-grain rice (like basmati)",
     "2 tbsp butter",

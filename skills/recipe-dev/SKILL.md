@@ -23,7 +23,7 @@ Recipes live as individual JSON files in `data/recipes/`. The loader (`lib/recip
 
 - Create a JSON file in `data/recipes/` using lowercase dot-separated words matching the existing convention — for example, `chicken.tikka.masala.json`.
 - Required fields: `title` (string), `description` (string), `prepTime` (string), `cookTime` (string), `servings` (number), `difficulty` ("Easy" | "Medium" | "Hard"), `tags` (string[]), `ingredients` (string[]), `instructions` (string[]), `macros` (`{ calories, protein, carbs, fat }` — all numbers, per serving).
-- Optional field: `notes` (string).
+- Optional fields: `notes` (string), `dateAdded` (string, `YYYY-MM-DD`) — set it to today's date for new recipes so they sort correctly under "Newest First" on the recipes page.
 - Reuse existing tags wherever they apply — `data/recipes/README.md` lists the common tag vocabulary. Add new tags to the README when you introduce them.
 - Validation runs automatically on load via `isValidRecipe`; a bad schema throws and surfaces at test and build time.
 
