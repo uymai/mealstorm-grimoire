@@ -23,6 +23,8 @@ function RecipesContent() {
   const [recipes, setRecipes] = useState<Recipe[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedTag, setSelectedTag] = useState('');
+  const [sortOrder, setSortOrder] = useState<'default' | 'newest' | 'oldest' | 'title'>('default');
+  const [showLimit, setShowLimit] = useState<'all' | '10' | '20' | '50'>('all');
   const [isLoading, setIsLoading] = useState(true);
   const [selectedRecipe, setSelectedRecipe] = useState<Recipe | null>(null);
 
@@ -262,11 +264,11 @@ function RecipesContent() {
     return Array.from(tags).sort();
   }, [recipes]);
 
-  // Filter recipes based on search term and selected tag
+  // Filter recipes based on search term and selected tag, then sort
   const filteredRecipes = useMemo(() => {
     const normalizedSearchTerm = searchTerm.trim().toLowerCase();
 
-    return recipes.filter(recipe => {
+    const filtered = recipes.filter(recipe => {
       const matchesSearch = normalizedSearchTerm === '' ||
                            recipe.title.toLowerCase().includes(normalizedSearchTerm) ||
                            recipe.description.toLowerCase().includes(normalizedSearchTerm) ||
@@ -274,7 +276,31 @@ function RecipesContent() {
       const matchesTag = !selectedTag || recipe.tags.includes(selectedTag);
       return matchesSearch && matchesTag;
     });
-  }, [recipes, searchTerm, selectedTag]);
+
+    if (sortOrder === 'title') {
+      return [...filtered].sort((a, b) => a.title.localeCompare(b.title));
+    }
+
+    if (sortOrder === 'newest' || sortOrder === 'oldest') {
+      // Recipes without a dateAdded sort to the end regardless of direction.
+      return [...filtered].sort((a, b) => {
+        if (!a.dateAdded && !b.dateAdded) return 0;
+        if (!a.dateAdded) return 1;
+        if (!b.dateAdded) return -1;
+        return sortOrder === 'newest'
+          ? b.dateAdded.localeCompare(a.dateAdded)
+          : a.dateAdded.localeCompare(b.dateAdded);
+      });
+    }
+
+    return filtered;
+  }, [recipes, searchTerm, selectedTag, sortOrder]);
+
+  // Apply the "show" limit on top of the sorted/filtered list, e.g. the 10 newest recipes
+  const displayedRecipes = useMemo(() => {
+    if (showLimit === 'all') return filteredRecipes;
+    return filteredRecipes.slice(0, Number(showLimit));
+  }, [filteredRecipes, showLimit]);
 
   // Get random recipe for featured display
   const randomRecipe = useMemo(() => {
@@ -282,6 +308,21 @@ function RecipesContent() {
     const randomIndex = Math.floor(Math.random() * filteredRecipes.length);
     return filteredRecipes[randomIndex];
   }, [filteredRecipes]);
+
+  // Human-readable label for the recipe grid heading, reflecting active sort/limit
+  const gridHeading = (() => {
+    const sortLabel = sortOrder === 'newest' ? ' · Newest First'
+      : sortOrder === 'oldest' ? ' · Oldest First'
+      : sortOrder === 'title' ? ' · A–Z'
+      : '';
+    if (displayedRecipes.length < filteredRecipes.length) {
+      return `Showing ${displayedRecipes.length} of ${filteredRecipes.length}${sortLabel}`;
+    }
+    if (filteredRecipes.length === recipes.length) {
+      return `All Recipes (${recipes.length})${sortLabel}`;
+    }
+    return `Search Results (${filteredRecipes.length} of ${recipes.length})${sortLabel}`;
+  })();
 
   // Generate URL-friendly slug from recipe title
   const generateRecipeSlug = (title: string) => {
@@ -404,6 +445,30 @@ function RecipesContent() {
               ))}
             </select>
           </div>
+          <div className="sm:w-44">
+            <select
+              value={sortOrder}
+              onChange={(e) => setSortOrder(e.target.value as typeof sortOrder)}
+              className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            >
+              <option value="default">Sort: Default</option>
+              <option value="newest">Sort: Newest First</option>
+              <option value="oldest">Sort: Oldest First</option>
+              <option value="title">Sort: Title (A–Z)</option>
+            </select>
+          </div>
+          <div className="sm:w-32">
+            <select
+              value={showLimit}
+              onChange={(e) => setShowLimit(e.target.value as typeof showLimit)}
+              className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            >
+              <option value="all">Show: All</option>
+              <option value="10">Show: 10</option>
+              <option value="20">Show: 20</option>
+              <option value="50">Show: 50</option>
+            </select>
+          </div>
         </div>
 
         <div className="flex flex-wrap gap-2">
@@ -512,10 +577,7 @@ function RecipesContent() {
       {/* Recipe Grid */}
       <div className="mb-8">
         <h2 className="text-2xl font-bold mb-6">
-          {filteredRecipes.length === recipes.length
-            ? `All Recipes (${recipes.length})`
-            : `Search Results (${filteredRecipes.length} of ${recipes.length})`
-          }
+          {gridHeading}
         </h2>
 
         {filteredRecipes.length === 0 ? (
@@ -535,7 +597,7 @@ function RecipesContent() {
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredRecipes.map((recipe, index) => (
+            {displayedRecipes.map((recipe, index) => (
               <RecipeCard
                 key={index}
                 recipe={recipe}

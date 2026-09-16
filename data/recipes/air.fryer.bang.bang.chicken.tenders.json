@@ -9,7 +9,13 @@
   "cookTime": "15 minutes",
   "servings": 3,
   "difficulty": "Easy",
-  "tags": ["chicken", "air fryer", "high protein", "testing"],
+  "dateAdded": "2026-09-03",
+  "tags": [
+    "chicken",
+    "air fryer",
+    "high protein",
+    "testing"
+  ],
   "ingredients": [
     "450g chicken breast, sliced into 9 strips",
     "1 egg, whisked",

@@ -24,6 +24,7 @@ export function isValidRecipe(value: unknown): value is Recipe {
     typeof recipe.cookTime === 'string' &&
     typeof recipe.servings === 'number' &&
     typeof recipe.difficulty === 'string' &&
+    (recipe.dateAdded === undefined || typeof recipe.dateAdded === 'string') &&
     Array.isArray(recipe.tags) &&
     recipe.tags.every((tag) => typeof tag === 'string') &&
     Array.isArray(recipe.ingredients) &&
