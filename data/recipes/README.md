@@ -69,3 +69,4 @@ Common tags used in recipes:
 - `grilled` - Grilled recipe
 - `make-ahead` - Can be prepared ahead of time
 - `family-favorite` - Family favorite recipe
+- `tandoori` - Tandoori-spiced (yogurt and spice marinade)
