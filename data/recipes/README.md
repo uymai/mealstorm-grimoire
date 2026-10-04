@@ -41,7 +41,7 @@ Macro values are numeric and represent one serving of the recipe. In this collec
 ## Adding New Recipes
 
 1. Create a new JSON file in this directory
-2. Use kebab-case for the filename (e.g., `chicken-parmesan.json`)
+2. Use lowercase dot-separated words for the filename (e.g., `chicken.parmesan.json`)
 3. Follow the JSON structure above
 4. Use descriptive tags for better searchability
 5. Set `dateAdded` to today's date so the recipe sorts correctly under "Newest First"
