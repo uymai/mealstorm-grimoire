@@ -358,6 +358,17 @@ function RecipesContent() {
       `- Carbs: ${recipe.macros.carbs}g`,
       `- Fat: ${recipe.macros.fat}g`,
       '',
+      ...(recipe.portion
+        ? [
+            '## Portion (1 serving)',
+            '',
+            recipe.portion.size,
+            ...(recipe.portion.components?.length
+              ? ['', ...recipe.portion.components.map((component) => `- ${component.item}: ${component.amount}`)]
+              : []),
+            '',
+          ]
+        : []),
       '## Tags',
       '',
       tags,
@@ -761,6 +772,24 @@ function RecipesContent() {
                     <span className="font-medium text-gray-900 dark:text-white">Fat:</span> {selectedRecipe.macros.fat}g
                   </p>
                 </div>
+                {selectedRecipe.portion && (
+                  <div className="mt-4 p-4 bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-800 rounded-lg">
+                    <h4 className="font-semibold text-emerald-900 dark:text-emerald-100">
+                      Portion (1 serving)
+                    </h4>
+                    <p className="mt-1 text-emerald-800 dark:text-emerald-200">{selectedRecipe.portion.size}</p>
+                    {selectedRecipe.portion.components && selectedRecipe.portion.components.length > 0 && (
+                      <ul className="mt-2 space-y-1">
+                        {selectedRecipe.portion.components.map((component, index) => (
+                          <li key={index} className="text-emerald-800 dark:text-emerald-200">
+                            <span className="font-medium text-emerald-900 dark:text-emerald-100">{component.item}:</span>{' '}
+                            {component.amount}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                )}
               </div>
 
               <div className="flex flex-wrap gap-2 mb-6">

@@ -4,6 +4,23 @@
   "prepTime": "15 minutes",
   "cookTime": "45 minutes",
   "servings": 4,
+  "portion": {
+    "size": "1 plate: 1 chicken breast + 1/4 of the potatoes and broccoli",
+    "components": [
+      {
+        "item": "Lemon pepper chicken",
+        "amount": "1 breast (about 125g cooked)"
+      },
+      {
+        "item": "Roasted potatoes",
+        "amount": "about 1 cup of chunks (110g roasted)"
+      },
+      {
+        "item": "Roasted broccoli",
+        "amount": "1 cup florets (75g)"
+      }
+    ]
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-07-26",
   "tags": [

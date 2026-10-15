@@ -4,6 +4,19 @@
   "prepTime": "10 minutes",
   "cookTime": "20 minutes",
   "servings": 4,
+  "portion": {
+    "size": "1 fillet + 1/4 of the vegetables. Rice or quinoa is not included.",
+    "components": [
+      {
+        "item": "Salmon",
+        "amount": "1 fillet (about 135g cooked)"
+      },
+      {
+        "item": "Roasted vegetables",
+        "amount": "about 1 cup (1/2 cup broccoli plus 1/4 of the zucchini and pepper)"
+      }
+    ]
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-07-26",
   "tags": [

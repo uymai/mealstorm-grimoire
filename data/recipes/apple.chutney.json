@@ -4,6 +4,9 @@
   "prepTime": "15 minutes",
   "cookTime": "45 minutes",
   "servings": 6,
+  "portion": {
+    "size": "About 1/2 cup (1/6 of the batch)"
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-08-13",
   "tags": [

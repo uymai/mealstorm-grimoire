@@ -4,6 +4,9 @@
   "prepTime": "10 minutes (plus optional freezing/thawing)",
   "cookTime": "12-15 minutes",
   "servings": 2,
+  "portion": {
+    "size": "About 1 cup of pieces, about 150g air-fried (half of a 454g block)"
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-07-26",
   "tags": [

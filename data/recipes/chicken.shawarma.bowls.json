@@ -9,6 +9,27 @@
   "prepTime": "20 minutes",
   "cookTime": "30 minutes",
   "servings": 4,
+  "portion": {
+    "size": "1 bowl (1/4 of each component)",
+    "components": [
+      {
+        "item": "Shawarma chicken",
+        "amount": "about 125g cooked"
+      },
+      {
+        "item": "Lemon rice",
+        "amount": "about 1 1/8 cups cooked (from 3/8 cup dry)"
+      },
+      {
+        "item": "Pickled cabbage slaw",
+        "amount": "about 1/2 cup, drained"
+      },
+      {
+        "item": "Yogurt feta sauce",
+        "amount": "about 3 tbsp"
+      }
+    ]
+  },
   "difficulty": "Medium",
   "dateAdded": "2026-07-26",
   "tags": [

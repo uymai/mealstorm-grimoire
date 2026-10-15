@@ -13,6 +13,13 @@ Each recipe should be a JSON file with the following structure:
   "prepTime": "X minutes",
   "cookTime": "X minutes", 
   "servings": 4,
+  "portion": {
+    "size": "1 bowl (1/4 of each component)",
+    "components": [
+      { "item": "Cooked rice", "amount": "about 1 cup (from 1/4 cup dry)" },
+      { "item": "Chicken", "amount": "about 125g cooked" }
+    ]
+  },
   "difficulty": "Easy|Medium|Hard",
   "dateAdded": "YYYY-MM-DD",
   "tags": ["tag1", "tag2", "tag3"],
@@ -35,6 +42,8 @@ Each recipe should be a JSON file with the following structure:
 ```
 
 Macro values are numeric and represent one serving of the recipe. In this collection, some values are estimated from the listed ingredients when exact nutrition labels are not available.
+
+`portion` says what one serving actually is, so the per-serving macros match what's on the plate. `size` is the whole serving in plain terms (a fraction of the batch plus a measurable amount: cups, grams, pieces). For dishes built from separate components (bowls, plates, tortas), list each one in `components` with its per-serving `amount`. Give meat and fish as cooked weight only (that's what you weigh when plating). Never give a fraction of a whole item that gets cut up or cooked ("1/2 block of tofu", "half a sweet potato"); use cups, spoons, pieces, or cooked grams instead. Give grains as cooked volume with the dry amount. Say when a side the recipe suggests (rice, salad) isn't included in the macros. Every recipe in this collection has a portion, and the test suite checks for it.
 
 `dateAdded` is optional and should be the date (`YYYY-MM-DD`) the recipe was added to the collection. It powers the "Newest First" sort on the recipes page; recipes without it sort to the end.
 

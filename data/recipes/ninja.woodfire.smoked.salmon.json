@@ -4,6 +4,9 @@
   "prepTime": "10 minutes (plus 4–8 hours brining and 1–2 hours pellicle rest)",
   "cookTime": "45–60 minutes",
   "servings": 4,
+  "portion": {
+    "size": "About 100g smoked salmon (1/4 of a 1.1 lb fillet). With a bigger fillet, go by weight, not by quarters."
+  },
   "difficulty": "Medium",
   "dateAdded": "2026-07-26",
   "tags": [

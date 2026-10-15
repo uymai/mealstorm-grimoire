@@ -9,6 +9,9 @@
   "prepTime": "20 minutes",
   "cookTime": "15 minutes",
   "servings": 5,
+  "portion": {
+    "size": "1 skewer: about 170g cooked chicken, with 1/5 of the garlic butter and parmesan"
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-10-04",
   "tags": [

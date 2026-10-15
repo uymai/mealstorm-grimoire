@@ -4,6 +4,35 @@
   "prepTime": "10 minutes",
   "cookTime": "25 minutes",
   "servings": 4,
+  "portion": {
+    "size": "1 bowl (1/4 of each component)",
+    "components": [
+      {
+        "item": "Lemon garlic chicken",
+        "amount": "about 125g cooked"
+      },
+      {
+        "item": "Cooked barley",
+        "amount": "1/2 cup"
+      },
+      {
+        "item": "Edamame",
+        "amount": "1/4 cup"
+      },
+      {
+        "item": "Shredded carrot",
+        "amount": "1/4 cup"
+      },
+      {
+        "item": "Arugula",
+        "amount": "1/2 cup"
+      },
+      {
+        "item": "Tahini dressing",
+        "amount": "about 2 tsp (1/4 of the dressing)"
+      }
+    ]
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-07-26",
   "tags": [

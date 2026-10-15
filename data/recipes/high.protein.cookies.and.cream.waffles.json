@@ -4,6 +4,9 @@
   "prepTime": "5 minutes",
   "cookTime": "15 minutes",
   "servings": 2,
+  "portion": {
+    "size": "Half the batter, about 200g (weigh the batter and split it in two)"
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-07-26",
   "tags": [

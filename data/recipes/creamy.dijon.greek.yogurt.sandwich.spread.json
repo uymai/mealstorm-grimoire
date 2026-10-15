@@ -4,6 +4,9 @@
   "prepTime": "5 minutes",
   "cookTime": "0 minutes",
   "servings": 1,
+  "portion": {
+    "size": "The whole batch, about 3 1/2 tbsp"
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-07-26",
   "tags": [

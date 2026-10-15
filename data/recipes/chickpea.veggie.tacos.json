@@ -4,6 +4,31 @@
   "prepTime": "15 minutes",
   "cookTime": "20 minutes",
   "servings": 4,
+  "portion": {
+    "size": "1 loaded tortilla. Macros assume 4 tortillas; if you split it across 6, eat 1 1/2 tacos.",
+    "components": [
+      {
+        "item": "Whole wheat tortilla",
+        "amount": "1"
+      },
+      {
+        "item": "Roasted chickpeas",
+        "amount": "about 3/4 cup (1/2 can)"
+      },
+      {
+        "item": "Roasted sweet potato",
+        "amount": "1/4 cup"
+      },
+      {
+        "item": "Kale or arugula",
+        "amount": "1/2 cup"
+      },
+      {
+        "item": "Yogurt-lime sauce",
+        "amount": "2 tbsp"
+      }
+    ]
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-07-26",
   "tags": [

@@ -4,6 +4,9 @@
   "prepTime": "20 minutes",
   "cookTime": "25 minutes",
   "servings": 12,
+  "portion": {
+    "size": "1 muffin"
+  },
   "difficulty": "Medium",
   "dateAdded": "2026-07-26",
   "tags": [

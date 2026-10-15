@@ -4,6 +4,9 @@
   "prepTime": "30 minutes (includes brine)",
   "cookTime": "20 minutes",
   "servings": 4,
+  "portion": {
+    "size": "1 chicken breast, about 130-150g cooked. Salad and dressing are not included."
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-07-26",
   "tags": [

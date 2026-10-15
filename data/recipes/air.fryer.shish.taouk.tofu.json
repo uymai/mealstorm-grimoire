@@ -4,6 +4,9 @@
   "prepTime": "20 minutes (plus freeze/thaw + 8–24 hours marinating)",
   "cookTime": "10–12 minutes",
   "servings": 4,
+  "portion": {
+    "size": "8-10 cubes, about 90g air-fried (1/4 of the block)"
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-07-26",
   "tags": [

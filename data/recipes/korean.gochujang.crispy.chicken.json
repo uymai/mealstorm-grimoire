@@ -9,6 +9,9 @@
   "prepTime": "20 minutes + 2 hours marinating",
   "cookTime": "30 minutes (multiple air fryer batches)",
   "servings": 10,
+  "portion": {
+    "size": "1/10 of the batch: about 125g cooked chicken (about 1 cup of pieces), sauced"
+  },
   "difficulty": "Medium",
   "dateAdded": "2026-07-26",
   "tags": [

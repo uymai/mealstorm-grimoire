@@ -4,6 +4,19 @@
   "prepTime": "15 minutes",
   "cookTime": "20 minutes",
   "servings": 4,
+  "portion": {
+    "size": "1 bowl (1/4 of the pot)",
+    "components": [
+      {
+        "item": "Noodle soup",
+        "amount": "about 2 3/4 cups"
+      },
+      {
+        "item": "Crispy tofu",
+        "amount": "about 150g air-fried, roughly 1 1/4 cups of pieces (half of a 454g block)"
+      }
+    ]
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-07-26",
   "tags": [

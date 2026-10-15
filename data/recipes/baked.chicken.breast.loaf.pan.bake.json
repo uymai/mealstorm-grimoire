@@ -9,6 +9,9 @@
   "prepTime": "15 minutes (plus 2-3 hours or overnight marinating)",
   "cookTime": "35-40 minutes",
   "servings": 6,
+  "portion": {
+    "size": "1/6 of the loaf pan: about 140g cooked chicken"
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-08-08",
   "tags": [

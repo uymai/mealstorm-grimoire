@@ -4,6 +4,31 @@
   "prepTime": "15 minutes",
   "cookTime": "25 minutes",
   "servings": 3,
+  "portion": {
+    "size": "1/3 of the salad, about 2 cups",
+    "components": [
+      {
+        "item": "Roasted sweet potato",
+        "amount": "about 3/4 cup of cubes (100g roasted)"
+      },
+      {
+        "item": "Roasted chickpeas",
+        "amount": "about 1/2 cup (1/3 can)"
+      },
+      {
+        "item": "Massaged kale",
+        "amount": "about 1 1/3 cups"
+      },
+      {
+        "item": "Feta or goat cheese",
+        "amount": "about 2 tbsp"
+      },
+      {
+        "item": "Tahini dressing",
+        "amount": "about 2 tbsp (1/3 of the dressing)"
+      }
+    ]
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-07-26",
   "tags": [
