@@ -4,6 +4,35 @@
   "prepTime": "20 minutes",
   "cookTime": "25 minutes",
   "servings": 4,
+  "portion": {
+    "size": "1 torta",
+    "components": [
+      {
+        "item": "Bun",
+        "amount": "1 sandwich thin or light bun"
+      },
+      {
+        "item": "Chipotle chicken",
+        "amount": "175g raw / about 130g cooked, sliced"
+      },
+      {
+        "item": "Creamy black beans",
+        "amount": "about 3/4 cup (1/4 of the pan)"
+      },
+      {
+        "item": "Chipotle yogurt sauce",
+        "amount": "1/4 cup (about 60g)"
+      },
+      {
+        "item": "Avocado",
+        "amount": "1/4 avocado"
+      },
+      {
+        "item": "Lettuce, tomato, red onion",
+        "amount": "1/4 of each"
+      }
+    ]
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-07-26",
   "tags": [

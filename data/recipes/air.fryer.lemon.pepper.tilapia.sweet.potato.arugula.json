@@ -4,6 +4,27 @@
   "prepTime": "10 minutes",
   "cookTime": "20 minutes",
   "servings": 2,
+  "portion": {
+    "size": "1 plate: 1 fillet + half the sweet potato + half the dressed greens",
+    "components": [
+      {
+        "item": "Lemon pepper tilapia",
+        "amount": "1 fillet (150g raw)"
+      },
+      {
+        "item": "Roasted sweet potato",
+        "amount": "150g raw cubes (about 1 cup)"
+      },
+      {
+        "item": "Dressed greens",
+        "amount": "1 cup greens with half the dressing (about 1 1/2 tbsp)"
+      },
+      {
+        "item": "Salted pepitas",
+        "amount": "1/2 tbsp"
+      }
+    ]
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-07-26",
   "tags": [

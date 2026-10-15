@@ -121,6 +121,26 @@ describe('isValidRecipe', () => {
   it('rejects notes as a non-string', () => {
     expect(isValidRecipe({ ...VALID_RECIPE, notes: 42 })).toBe(false);
   });
+
+  it('accepts a portion with only a size', () => {
+    expect(isValidRecipe({ ...VALID_RECIPE, portion: { size: '1 cup' } })).toBe(true);
+  });
+
+  it('accepts a portion with components', () => {
+    const portion = { size: '1 bowl', components: [{ item: 'Rice', amount: '1 cup cooked' }] };
+    expect(isValidRecipe({ ...VALID_RECIPE, portion })).toBe(true);
+  });
+
+  it.each([
+    ['a string', '1 cup'],
+    ['missing size', { components: [] }],
+    ['a non-string size', { size: 1 }],
+    ['non-array components', { size: '1 bowl', components: 'rice' }],
+    ['a component missing amount', { size: '1 bowl', components: [{ item: 'Rice' }] }],
+    ['a component with a non-string item', { size: '1 bowl', components: [{ item: 1, amount: '1 cup' }] }],
+  ])('rejects portion as %s', (_label, portion) => {
+    expect(isValidRecipe({ ...VALID_RECIPE, portion })).toBe(false);
+  });
 });
 
 describe('loadRecipesFromDirectory', () => {

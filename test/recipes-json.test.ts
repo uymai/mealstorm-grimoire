@@ -26,4 +26,11 @@ describe('recipe JSON loading', () => {
       expect(recipe.macros.fat).toEqual(expect.any(Number));
     }
   });
+
+  it('describes the per-serving portion for every recipe', () => {
+    const recipes = loadRecipesFromDirectory(recipesDir);
+    const missing = recipes.filter((recipe) => !recipe.portion?.size.trim()).map((recipe) => recipe.title);
+
+    expect(missing).toEqual([]);
+  });
 });

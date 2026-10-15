@@ -10,6 +10,25 @@ export function generateRecipeSlug(title: string): string {
     .replace(/^-|-$/g, '');
 }
 
+function isValidPortion(value: unknown): boolean {
+  if (!value || typeof value !== 'object') {
+    return false;
+  }
+
+  const portion = value as { size?: unknown; components?: unknown };
+
+  return (
+    typeof portion.size === 'string' &&
+    (portion.components === undefined ||
+      (Array.isArray(portion.components) &&
+       portion.components.every((component) =>
+         typeof component === 'object' &&
+         component !== null &&
+         typeof (component as { item?: unknown }).item === 'string' &&
+         typeof (component as { amount?: unknown }).amount === 'string')))
+  );
+}
+
 export function isValidRecipe(value: unknown): value is Recipe {
   if (!value || typeof value !== 'object') {
     return false;
@@ -23,6 +42,7 @@ export function isValidRecipe(value: unknown): value is Recipe {
     typeof recipe.prepTime === 'string' &&
     typeof recipe.cookTime === 'string' &&
     typeof recipe.servings === 'number' &&
+    (recipe.portion === undefined || isValidPortion(recipe.portion)) &&
     typeof recipe.difficulty === 'string' &&
     (recipe.dateAdded === undefined || typeof recipe.dateAdded === 'string') &&
     Array.isArray(recipe.tags) &&

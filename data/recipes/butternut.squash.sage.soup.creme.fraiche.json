@@ -4,6 +4,23 @@
   "prepTime": "20 minutes",
   "cookTime": "30 minutes",
   "servings": 6,
+  "portion": {
+    "size": "1 bowl, about 1 1/4 cups (1/6 of the pot)",
+    "components": [
+      {
+        "item": "Blended soup",
+        "amount": "about 1 1/4 cups"
+      },
+      {
+        "item": "Crème fraîche",
+        "amount": "1 tsp (5g)"
+      },
+      {
+        "item": "Crispy sage",
+        "amount": "2 leaves"
+      }
+    ]
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-10-04",
   "tags": [

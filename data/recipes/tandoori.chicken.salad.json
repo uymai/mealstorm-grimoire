@@ -4,6 +4,9 @@
   "prepTime": "25 minutes (plus 8–24 hours marinating)",
   "cookTime": "25 minutes",
   "servings": 4,
+  "portion": {
+    "size": "About 210g, roughly 1 cup (1/4 of the batch). Weigh the finished batch and divide by 4."
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-10-02",
   "tags": ["chicken", "high-protein", "tandoori", "salad", "meal-prep", "make-ahead", "testing"],

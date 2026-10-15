@@ -4,6 +4,9 @@
   "prepTime": "5 minutes",
   "cookTime": "8 minutes",
   "servings": 2,
+  "portion": {
+    "size": "Half the batch: about 170g trimmed asparagus (8-10 spears) with 1 tbsp parmesan"
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-07-26",
   "tags": [

@@ -4,6 +4,9 @@
   "prepTime": "10 minutes",
   "cookTime": "25–30 minutes",
   "servings": 4,
+  "portion": {
+    "size": "1/4 of the wedges (about half a large sweet potato)"
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-07-26",
   "tags": [

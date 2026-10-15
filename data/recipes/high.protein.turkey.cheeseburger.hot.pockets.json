@@ -4,6 +4,9 @@
   "prepTime": "25 minutes",
   "cookTime": "20 minutes",
   "servings": 8,
+  "portion": {
+    "size": "1 hot pocket"
+  },
   "difficulty": "Medium",
   "dateAdded": "2026-07-26",
   "tags": [

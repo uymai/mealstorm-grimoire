@@ -4,6 +4,9 @@
   "prepTime": "5 minutes",
   "cookTime": "0 minutes",
   "servings": 4,
+  "portion": {
+    "size": "About 3 1/2 tbsp (1/4 of the batch). The tuna and rice are not included."
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-08-29",
   "tags": [

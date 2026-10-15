@@ -4,6 +4,35 @@
   "prepTime": "10 minutes",
   "cookTime": "25 minutes",
   "servings": 4,
+  "portion": {
+    "size": "1 bowl (1/4 of each component)",
+    "components": [
+      {
+        "item": "Vegetable fried rice",
+        "amount": "about 1 3/4 cups / 315g (rice from 3/8 cup dry)"
+      },
+      {
+        "item": "Seasoned turkey",
+        "amount": "125g raw / about 95g cooked"
+      },
+      {
+        "item": "Roma tomato",
+        "amount": "40g diced"
+      },
+      {
+        "item": "Monterey Jack",
+        "amount": "1/4 cup (28g)"
+      },
+      {
+        "item": "0% Greek yogurt",
+        "amount": "1 1/2 tbsp"
+      },
+      {
+        "item": "Lime juice",
+        "amount": "about 1/2 tbsp"
+      }
+    ]
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-07-26",
   "tags": [

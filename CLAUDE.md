@@ -17,7 +17,7 @@ npm run lint       # ESLint
 ## Architecture
 
 - `app/page.tsx` — the recipe browser: search, tag filtering, "Recipe of the Moment", card grid, detail modal, pin-for-cooking queue, Screen Wake Lock.
-- `app/types.ts` — `Recipe`, `RecipeMacros`, `RecipeInspiredBy` interfaces.
+- `app/types.ts` — `Recipe`, `RecipeMacros`, `RecipePortion`, `RecipeInspiredBy` interfaces. `portion` describes one serving (and each component's amount for bowls/plates) so the per-serving macros match what's served.
 - `app/api/recipes/route.ts` — API route serving all recipes as JSON (no filtering/business logic — that belongs in the client).
 - `app/components/` — `Header`, `Footer`, `ServiceWorkerRegister`.
 - `lib/recipes.ts` — recipe loader (`loadRecipesFromDirectory`) and schema validator (`isValidRecipe`).

@@ -4,6 +4,9 @@
   "prepTime": "10 minutes (plus optional freezing/thawing)",
   "cookTime": "12-15 minutes",
   "servings": 2,
+  "portion": {
+    "size": "Half the block: 175-225g raw tofu, about 1 cup of pieces"
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-07-26",
   "tags": [

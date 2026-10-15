@@ -4,6 +4,9 @@
   "prepTime": "10 minutes",
   "cookTime": "75 minutes",
   "servings": 4,
+  "portion": {
+    "size": "1/4 of the pan: 227g raw potato, about 1 cup of wedges, plus 1/4 of the pan juices"
+  },
   "difficulty": "Easy",
   "dateAdded": "2026-08-25",
   "tags": [
