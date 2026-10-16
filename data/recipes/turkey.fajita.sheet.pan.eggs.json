@@ -7,7 +7,7 @@
   "portion": {
     "size": "1 square (1/8 of the pan)",
     "components": [
-      { "item": "Fajita turkey", "amount": "about 56g raw / 42g cooked" },
+      { "item": "Fajita turkey", "amount": "about 42g cooked" },
       { "item": "Egg mixture", "amount": "1/2 whole egg + 90 ml (6 tbsp) egg whites" },
       { "item": "Vegetables", "amount": "about 50g (onion, pepper, spinach)" }
     ]
