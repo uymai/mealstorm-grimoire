@@ -1,0 +1,63 @@
+{
+  "title": "Turkey Fajita Sheet Pan Eggs",
+  "description": "A make-ahead sheet pan egg bake with fajita-spiced lean ground turkey, peppers, onion and spinach, cut into squares for breakfasts or dinners all week.",
+  "prepTime": "15 minutes",
+  "cookTime": "35 minutes",
+  "servings": 8,
+  "portion": {
+    "size": "1 square (1/8 of the pan)",
+    "components": [
+      { "item": "Fajita turkey", "amount": "about 56g raw / 42g cooked" },
+      { "item": "Egg mixture", "amount": "1/2 whole egg + 90 ml (6 tbsp) egg whites" },
+      { "item": "Vegetables", "amount": "about 50g (onion, pepper, spinach)" }
+    ]
+  },
+  "difficulty": "Easy",
+  "dateAdded": "2026-10-16",
+  "tags": ["breakfast", "meal prep", "high protein", "sheet pan", "eggs", "turkey", "fajita", "testing"],
+  "ingredients": [
+    "450g lean ground turkey (93/7)",
+    "1/4 cup water (for turkey)",
+    "1 1/2 tsp chili powder",
+    "1 1/2 tsp garlic powder",
+    "1 1/2 tsp onion powder",
+    "3/4 tsp crushed red pepper flakes",
+    "3/4 tsp dried oregano",
+    "1 tbsp (3 tsp) paprika",
+    "2 1/4 tsp ground cumin",
+    "3/4 tsp sea salt",
+    "3/4 tsp black pepper (for turkey)",
+    "1/8 tsp cinnamon",
+    "1/8 tsp ground cloves",
+    "1 tsp garlic salt",
+    "1 medium yellow onion (about 110g), diced",
+    "1 bell pepper (about 160g), diced",
+    "5 frozen spinach balls (1 oz / 28g each, about 140g total)",
+    "4 large eggs",
+    "3 cups (720 ml) liquid egg whites",
+    "1/4 tsp black pepper (for eggs)"
+  ],
+  "instructions": [
+    "Preheat the oven to 350°F (175°C). Line an 18×13-inch half-sheet pan with parchment, letting it come up the sides.",
+    "Thaw the 5 frozen spinach balls (about 140g) in a bowl in the microwave for 30–60 seconds, then squeeze out as much water as possible with your hands or a clean tea towel.",
+    "Heat a large nonstick skillet over medium-high with no oil. Add the 450g ground turkey and cook, breaking it into small crumbles, until browned and the internal temperature reaches 74°C/165°F, about 7–8 minutes.",
+    "Add 1/4 cup water, 1 tsp garlic salt, and the spice mix: 1 1/2 tsp chili powder, 1 1/2 tsp garlic powder, 1 1/2 tsp onion powder, 3/4 tsp crushed red pepper flakes, 3/4 tsp dried oregano, 1 tbsp paprika, 2 1/4 tsp ground cumin, 3/4 tsp sea salt, 3/4 tsp black pepper, 1/8 tsp cinnamon, and 1/8 tsp ground cloves. Stir to coat and cook until the water has fully evaporated, about 2 minutes.",
+    "Add the 1 diced onion (about 110g) and 1 diced bell pepper (about 160g) to the skillet and cook until softened, about 4 minutes. Stir in the 140g squeezed spinach and cook 1–2 minutes, breaking up clumps and cooking off any remaining moisture.",
+    "In a large bowl, whisk the 4 eggs, 3 cups (720 ml) liquid egg whites, and 1/4 tsp black pepper until smooth with no streaks of white. Do not add salt; the turkey carries enough for the whole pan.",
+    "Spread the turkey and vegetable mixture evenly across the lined pan, then pour the egg mixture over the top, nudging the fillings so they're evenly distributed.",
+    "Bake for 20–24 minutes, rotating the pan halfway through, until the center is just set and no longer jiggles. Start checking at 20 minutes, since egg-white-heavy bakes turn rubbery quickly.",
+    "Let rest for 5 minutes to firm up, then cut into 8 squares."
+  ],
+  "macros": {
+    "calories": 193,
+    "protein": 25,
+    "carbs": 6,
+    "fat": 8
+  },
+  "notes": "Protein density: about 13g per 100 kcal. For a leaner pan, use 2 large eggs and 3 1/2 cups (840 ml) liquid egg whites instead of 4 eggs and 3 cups; each square comes to about 182 calories, 25g protein and 6.5g fat (13.8g per 100 kcal). Swapping in 450g extra-lean ground turkey or chicken breast (cooked in 1 tsp canola oil) brings each square to about 176 calories, 28g protein and 4.4g fat (about 16g per 100 kcal). For a cheesy version, scatter 1/2 cup (56g) shredded Monterey Jack over the top before baking; that adds about 26 calories, 1.7g protein and 2g fat per square. To serve, top each square with 1 tbsp diced Roma tomato, 1 tbsp 0% plain Greek yogurt, and a squeeze of lime (about 1 tsp lime juice, or 1/6 of a lime); these toppings are not included in the macros. For more heat, add 1 seeded, minced jalapeño with the onion. Baked squares keep 3–4 days in the fridge or 2–3 months frozen, wrapped individually; microwave 45–60 seconds from chilled or 1.5–2 minutes from frozen.",
+  "inspiredBy": {
+    "name": "High-Protein Seitan Sheet Pan Eggs",
+    "source": "Mealstorm Grimoire",
+    "url": "https://grimoire.uymai.net/?recipe=high-protein-seitan-sheet-pan-eggs"
+  }
+}
