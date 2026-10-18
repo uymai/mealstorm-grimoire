@@ -1,0 +1,44 @@
+{
+  "title": "Denise's Turkey Burgers",
+  "description": "Simple pan-fried turkey burgers with bread crumbs and egg, finished with melted cheese. Makes 3 full patties plus 2 small ones.",
+  "prepTime": "10 minutes",
+  "cookTime": "12 minutes",
+  "servings": 4,
+  "portion": {
+    "size": "1 full patty (1/4 of the batch, about 110g cooked) with 1 slice of cheese, or 2 small patties"
+  },
+  "difficulty": "Easy",
+  "dateAdded": "2026-10-18",
+  "tags": [
+    "turkey",
+    "burgers",
+    "dinner",
+    "easy",
+    "quick",
+    "kid-friendly",
+    "family-favorite"
+  ],
+  "ingredients": [
+    "450g ground turkey",
+    "1/2 cup bread crumbs",
+    "1/4 tsp salt",
+    "Black pepper, to taste",
+    "1 large egg",
+    "4 slices cheese"
+  ],
+  "instructions": [
+    "In a bowl, mix 450g ground turkey, 1/2 cup bread crumbs, 1/4 tsp salt, pepper, and 1 egg until combined.",
+    "Divide the mixture into 4 equal patties.",
+    "Take one patty and split it into two smaller patties (you'll have 3 full patties and 2 small ones).",
+    "Heat a pan over medium heat and pan fry the patties for 5 minutes.",
+    "Flip and cook 5 more minutes.",
+    "Top each patty with cheese, cover the pan, and cook until the cheese melts and the burgers reach 165°F inside (1–2 minutes)."
+  ],
+  "macros": {
+    "calories": 320,
+    "protein": 30,
+    "carbs": 10,
+    "fat": 18
+  },
+  "notes": "Macros are estimated per full patty using 93% lean ground turkey and one slice of cheddar; the two small patties together equal one serving. Bun and toppings are not included."
+}
