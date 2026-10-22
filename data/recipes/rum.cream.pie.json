@@ -1,11 +1,11 @@
 {
   "title": "Rum Cream Pie",
-  "description": "A light, frozen no-bake pie of whipped egg yolks and sugar set with a little gelatin, flavored with rum extract and folded into stiff whipped cream.",
+  "description": "A light, frozen no-bake pie of whipped egg yolks and sugar set with a little gelatin, flavored with rum extract, folded into stiff whipped cream and frozen in a graham cracker crust.",
   "prepTime": "20 minutes",
   "cookTime": "0 minutes",
   "servings": 8,
   "portion": {
-    "size": "1/8 of the pie (about 1/3 cup)"
+    "size": "1/8 of the pie (1 slice: about 1/3 cup filling plus crust)"
   },
   "difficulty": "Easy",
   "dateAdded": "2026-10-22",
@@ -20,7 +20,8 @@
     "1 tsp unflavored gelatin",
     "1/8 cup (2 tbsp) hot water",
     "1 cup heavy whipping cream",
-    "1 tbsp rum extract"
+    "1 tbsp rum extract",
+    "1 (9-inch) graham cracker crust"
   ],
   "instructions": [
     "Dissolve 1 tsp gelatin in 1/8 cup (2 tbsp) hot water.",
@@ -29,13 +30,13 @@
     "Beat 1 cup heavy cream until stiff peaks form.",
     "Add 1 tbsp rum extract to the egg mixture.",
     "Combine the egg mixture with the whipped cream. Don't overmix, or the whipped cream will become runny.",
-    "Pour into a pie dish and freeze until firm."
+    "Pour into the graham cracker crust and freeze until firm."
   ],
   "macros": {
-    "calories": 177,
-    "protein": 2,
-    "carbs": 14,
-    "fat": 13
+    "calories": 277,
+    "protein": 3,
+    "carbs": 27,
+    "fat": 18
   },
-  "notes": "No crust is listed; macros cover the filling only, so add your crust's macros if you use one. Freeze at least 4 hours (or overnight) before slicing. The egg yolks aren't cooked, so use pasteurized eggs if that's a concern."
+  "notes": "Macros assume a store-bought 9-inch graham cracker crust (about 100 cal / 1g protein / 13g carb / 5g fat per 1/8); the filling alone is about 177 cal / 2g protein / 14g carb / 13g fat per slice. Freeze at least 4 hours (or overnight) before slicing. The egg yolks aren't cooked, so use pasteurized eggs if that's a concern."
 }
