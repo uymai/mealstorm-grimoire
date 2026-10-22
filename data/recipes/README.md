@@ -77,5 +77,6 @@ Common tags used in recipes:
 - `baking` - Baking recipe
 - `grilled` - Grilled recipe
 - `make-ahead` - Can be prepared ahead of time
+- `no-bake` - No oven or stovetop needed
 - `family-favorite` - Family favorite recipe
 - `tandoori` - Tandoori-spiced (yogurt and spice marinade)

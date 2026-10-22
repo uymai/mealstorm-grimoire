@@ -1,0 +1,41 @@
+{
+  "title": "Rum Cream Pie",
+  "description": "A light, frozen no-bake pie of whipped egg yolks and sugar set with a little gelatin, flavored with rum extract and folded into stiff whipped cream.",
+  "prepTime": "20 minutes",
+  "cookTime": "0 minutes",
+  "servings": 8,
+  "portion": {
+    "size": "1/8 of the pie (about 1/3 cup)"
+  },
+  "difficulty": "Easy",
+  "dateAdded": "2026-10-22",
+  "tags": [
+    "dessert",
+    "make-ahead",
+    "no-bake"
+  ],
+  "ingredients": [
+    "3 egg yolks",
+    "1/2 cup sugar",
+    "1 tsp unflavored gelatin",
+    "1/8 cup (2 tbsp) hot water",
+    "1 cup heavy whipping cream",
+    "1 tbsp rum extract"
+  ],
+  "instructions": [
+    "Dissolve 1 tsp gelatin in 1/8 cup (2 tbsp) hot water.",
+    "Beat 3 egg yolks and 1/2 cup sugar until light.",
+    "Beat the gelatin water into the egg mixture, then let it cool.",
+    "Beat 1 cup heavy cream until stiff peaks form.",
+    "Add 1 tbsp rum extract to the egg mixture.",
+    "Combine the egg mixture with the whipped cream. Don't overmix, or the whipped cream will become runny.",
+    "Pour into a pie dish and freeze until firm."
+  ],
+  "macros": {
+    "calories": 177,
+    "protein": 2,
+    "carbs": 14,
+    "fat": 13
+  },
+  "notes": "No crust is listed; macros cover the filling only, so add your crust's macros if you use one. Freeze at least 4 hours (or overnight) before slicing. The egg yolks aren't cooked, so use pasteurized eggs if that's a concern."
+}
