@@ -1,0 +1,52 @@
+{
+  "title": "Lightened Butter Chicken Sauce",
+  "inspiredBy": {
+    "name": "Butter Chicken Meatballs",
+    "source": "Pinch of Yum",
+    "url": "https://pinchofyum.com/butter-chicken-meatballs"
+  },
+  "description": "A creamy, spiced tomato sauce for butter chicken, made with Greek yogurt instead of cream and butter.",
+  "prepTime": "10 minutes",
+  "cookTime": "25 minutes",
+  "servings": 4,
+  "portion": {
+    "size": "1/4 of the batch",
+    "components": [
+      { "item": "Sauce", "amount": "about 2/3 cup" }
+    ]
+  },
+  "difficulty": "Easy",
+  "dateAdded": "2026-11-15",
+  "tags": ["sauce", "indian", "butter chicken", "low-fat"],
+  "ingredients": [
+    "1 tsp canola oil",
+    "1/2 medium onion, roughly chopped (about 55g)",
+    "3 cloves garlic, minced",
+    "1 tbsp fresh ginger, grated",
+    "1/2 tsp garam masala",
+    "1/2 tsp ground cumin",
+    "1/4 tsp turmeric",
+    "1/4 tsp smoked paprika",
+    "1 can (398ml / 14 oz) crushed tomatoes",
+    "1/2 cup water",
+    "1/2 tsp kosher salt",
+    "1 tsp maple syrup",
+    "1/2 cup 0% plain Greek yogurt"
+  ],
+  "instructions": [
+    "Heat 1 tsp canola oil in a medium saucepan over medium heat. Add 1/2 chopped onion and cook for 5–6 minutes, stirring often, until soft and starting to turn golden.",
+    "Add 3 minced garlic cloves and 1 tbsp grated ginger. Cook for 1 minute, until fragrant.",
+    "Stir in 1/2 tsp garam masala, 1/2 tsp cumin, 1/4 tsp turmeric and 1/4 tsp smoked paprika. Toast for 30 seconds, adding a splash of the 1/2 cup water if the spices start to stick.",
+    "Add the 398ml can of crushed tomatoes, the rest of the 1/2 cup water, 1/2 tsp kosher salt and 1 tsp maple syrup. Bring to a simmer, then lower the heat and simmer for 15 minutes, stirring now and then, until slightly thickened.",
+    "Take the pan off the heat. Blend the sauce smooth with an immersion blender, or leave it rustic.",
+    "Let the sauce cool for 2 minutes. To temper the yogurt, whisk 1/2 cup Greek yogurt with about 1/4 cup of the hot sauce in a small bowl, then stir that mixture back into the pan. Keep it off the heat so it doesn't split.",
+    "Taste and adjust the salt. If the sauce is too thick, loosen it with 1–2 tbsp water."
+  ],
+  "macros": {
+    "calories": 75,
+    "protein": 5,
+    "carbs": 12,
+    "fat": 1
+  },
+  "notes": "If you're using it with meatballs or chicken, warm the cooked meat in the sauce before you add the yogurt, then temper the yogurt in off the heat. If you reheat leftovers, keep it gentle: low heat or short bursts in the microwave. Adding 1 tbsp of butter at the end makes it richer, at about 25 kcal and 3g fat more per serving. For more heat, add a pinch of cayenne with the spices."
+}
