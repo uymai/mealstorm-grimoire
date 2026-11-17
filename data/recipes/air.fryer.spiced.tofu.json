@@ -1,0 +1,39 @@
+{
+  "title": "Air-Fried Spiced Tofu",
+  "description": "Crispy, garam-masala-spiced tofu cubes from the air fryer, for folding into curries and sauces or topping a bowl.",
+  "prepTime": "25 minutes",
+  "cookTime": "15 minutes",
+  "servings": 4,
+  "portion": {
+    "size": "1/4 of the batch",
+    "components": [
+      { "item": "Air-fried tofu", "amount": "about 70g cooked (roughly 1/4 of the cubes)" }
+    ]
+  },
+  "difficulty": "Easy",
+  "dateAdded": "2026-11-15",
+  "tags": ["tofu", "air fryer", "vegetarian", "vegan", "meal prep", "component", "testing"],
+  "ingredients": [
+    "1 block (350g) extra-firm tofu",
+    "1 tsp canola oil",
+    "1/2 tsp garam masala",
+    "1/4 tsp smoked paprika",
+    "1/4 tsp kosher salt",
+    "2 tsp cornstarch"
+  ],
+  "instructions": [
+    "Press the 350g block of tofu for 20 minutes, in a tofu press or wrapped in paper towels under a heavy pan.",
+    "Cut the pressed tofu into 3/4–1 inch cubes and put them in a bowl.",
+    "Toss the cubes with 1 tsp canola oil, 1/2 tsp garam masala, 1/4 tsp smoked paprika and 1/4 tsp kosher salt.",
+    "Sprinkle 2 tsp cornstarch over the tofu and toss gently until no white powder shows.",
+    "Air fry at 400°F for 12–15 minutes in a single layer, shaking the basket at the halfway point, until golden and crisp. Work in batches if the cubes are crowded.",
+    "Serve right away, or fold the cubes into a sauce just before serving so they stay crisp."
+  ],
+  "macros": {
+    "calories": 140,
+    "protein": 12,
+    "carbs": 3,
+    "fat": 8
+  },
+  "notes": "Protein density is about 8.9g per 100 kcal. Tofu brands vary, so check your label: extra-firm blocks run about 6–9g fat per 100g. The drier the tofu after pressing, the crispier the result. Store leftovers separately from any sauce, and re-crisp them in the air fryer at 400°F for 3–4 minutes. Swap the spices to suit the dish: try cumin and chili powder, or a little soy sauce and sesame oil."
+}
