@@ -1,0 +1,52 @@
+{
+  "title": "Maple-Dijon Glazed Cod with Sweet Potato, Kale & Apple",
+  "description": "Lean cod with a maple-Dijon glaze, served with air-fried smoked paprika sweet potato and kale wilted with apple.",
+  "prepTime": "15 minutes",
+  "cookTime": "20 minutes",
+  "servings": 4,
+  "portion": {
+    "size": "1 plate (1/4 of each component)",
+    "components": [
+      { "item": "Glazed cod", "amount": "1 fillet (about 160g cooked)" },
+      { "item": "Roasted sweet potato", "amount": "about 1 cup (100g roasted)" },
+      { "item": "Kale and apple", "amount": "about 3/4 cup (1/4 of the pan)" },
+      { "item": "Yogurt-Dijon sauce", "amount": "about 2 1/2 tbsp" }
+    ]
+  },
+  "difficulty": "Easy",
+  "dateAdded": "2026-11-21",
+  "tags": ["fish", "cod", "fall", "high-protein", "low-fat", "air-fryer", "sweet-potato", "maple"],
+  "ingredients": [
+    "800g cod fillets (4 x 200g)",
+    "500g sweet potato, cut into 2cm cubes",
+    "1 tbsp canola oil",
+    "2 tbsp maple syrup",
+    "2 tbsp + 1 tsp Dijon mustard, divided",
+    "1 garlic clove, grated",
+    "1 tsp smoked paprika, divided",
+    "1/2 tsp salt, divided",
+    "1/4 tsp black pepper",
+    "200g kale, stems removed and leaves chopped",
+    "1 medium apple, diced (about 180g)",
+    "1 tsp extra virgin olive oil",
+    "1/2 lemon, juiced (1 tbsp lemon juice)",
+    "150g 0% Greek yogurt"
+  ],
+  "instructions": [
+    "Toss 500g cubed sweet potato with 1 tbsp canola oil, 1/2 tsp smoked paprika and 1/4 tsp salt. Air fry at 400°F for 18–20 minutes, shaking halfway, until browned and tender.",
+    "Meanwhile, preheat the oven to 425°F and line a baking sheet with parchment.",
+    "Whisk 2 tbsp maple syrup, 2 tbsp Dijon mustard, 1 grated garlic clove and the remaining 1/2 tsp smoked paprika in a small bowl.",
+    "Pat 800g cod fillets dry, set them on the baking sheet and season with the remaining 1/4 tsp salt and 1/4 tsp black pepper. Brush half the glaze over the fillets.",
+    "Bake the cod for 8 minutes. Brush on the rest of the glaze and bake 3–4 more minutes, until the fish flakes easily and reaches 145°F inside.",
+    "While the cod bakes, heat 1 tsp olive oil in a large skillet over medium heat. Add 1 diced apple (about 180g) and cook 2 minutes. Add 200g chopped kale and cook 3 minutes, stirring, until wilted. Take off the heat and stir in 1 tbsp lemon juice (from 1/2 lemon).",
+    "Stir 150g 0% Greek yogurt with 1 tsp Dijon mustard to make the sauce.",
+    "Divide the cod, sweet potato and kale among 4 plates and top each with about 2 1/2 tbsp of the yogurt-Dijon sauce."
+  ],
+  "macros": {
+    "calories": 415,
+    "protein": 43,
+    "carbs": 50,
+    "fat": 6
+  },
+  "notes": "Woodfire option: smoke the cod at about 250°F for 25–30 minutes, adding all the glaze in the last 5 minutes. Keep the yogurt sauce separate from the leftovers and add it after reheating so it doesn't split. Haddock or halibut can replace the cod with almost no change to the macros. Salmon will add about 15g of fat per serving."
+}
