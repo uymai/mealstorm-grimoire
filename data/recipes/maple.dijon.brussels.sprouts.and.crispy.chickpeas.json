@@ -1,0 +1,53 @@
+{
+  "title": "Maple-Dijon Brussels Sprouts & Crispy Chickpeas",
+  "description": "Air-fried Brussels sprouts, chickpeas and red onion tossed in an oil-free maple-Dijon glaze and topped with salted pumpkin seeds.",
+  "prepTime": "10 minutes",
+  "cookTime": "25 minutes",
+  "servings": 4,
+  "portion": {
+    "size": "1 side serving (1/4 of the batch)",
+    "components": [
+      { "item": "Glazed sprouts, chickpeas & onion", "amount": "about 1 cup (160g)" },
+      { "item": "Salted pumpkin seeds", "amount": "about 1.5 tsp" }
+    ]
+  },
+  "difficulty": "Easy",
+  "dateAdded": "2026-11-21",
+  "tags": ["side", "air fryer", "vegetarian", "fall", "chickpeas", "brussels sprouts", "meal prep"],
+  "ingredients": [
+    "1 can (540 mL) chickpeas, drained, rinsed and patted dry (about 370g drained)",
+    "454g (1 lb) Brussels sprouts, trimmed and quartered",
+    "1 small red onion (about 70g), cut into wedges",
+    "1 tbsp canola or extra virgin olive oil",
+    "1/2 tsp smoked paprika",
+    "Pinch of black pepper",
+    "Salt, optional (see notes)",
+    "3 tbsp Dijon mustard",
+    "2 tbsp maple syrup",
+    "1 tsp apple cider vinegar",
+    "1-2 tsp water, as needed",
+    "2 tbsp salted shelled pumpkin seeds (pepitas)"
+  ],
+  "instructions": [
+    "Pat the 370g drained chickpeas very dry with a towel. Leftover moisture keeps them from crisping.",
+    "In a large bowl, toss the chickpeas, 454g quartered Brussels sprouts and 70g red onion wedges with 1 tbsp oil, 1/2 tsp smoked paprika and a pinch of black pepper. Leave out the salt for now.",
+    "Lift the chickpeas out first and air-fry them at 400°F for 5 minutes.",
+    "Add the oiled Brussels sprouts and onion to the basket with the chickpeas. Air-fry everything at 400°F for 18-20 minutes more, shaking the basket every 6-7 minutes, until the sprouts are charred at the edges and the chickpeas are crisp. If it doesn't all fit in one layer, cook it in 2 batches.",
+    "While it cooks, whisk 3 tbsp Dijon mustard, 2 tbsp maple syrup and 1 tsp apple cider vinegar in a small bowl. If the glaze is too thick to coat everything, thin it with 1-2 tsp water.",
+    "Move the hot vegetables and chickpeas to the large bowl and toss them in the whole maple-Dijon glaze until coated.",
+    "Taste and add salt only if needed. The Dijon and seeds already bring plenty of salt.",
+    "Divide into 4 servings and scatter the 2 tbsp salted pumpkin seeds on top, about 1.5 tsp per serving, just before eating."
+  ],
+  "macros": {
+    "calories": 280,
+    "protein": 13,
+    "carbs": 40,
+    "fat": 9
+  },
+  "notes": "Changes from the original to save fat: roasting oil cut from 2 tbsp to 1 tbsp, glaze oil (2 tbsp) dropped, maple cut from 3 tbsp to 2 tbsp, and 1/4 cup almonds replaced with 2 tbsp pumpkin seeds. That brings each serving from about 42g fat down to about 9g. The rice base is dropped because this is a side. The Dijon adds about 1,000mg sodium to the batch, so go light on extra salt. For leftovers, store the seeds separately so they stay crunchy, and re-crisp the sprouts and chickpeas at 380°F for 3-4 minutes. The glaze also works brushed on chicken breast.",
+  "inspiredBy": {
+    "name": "Maple-Dijon Brussel Sprout & Chickpea Rice Bowl",
+    "source": "@mirsdairyfree (Instagram)",
+    "url": "https://www.instagram.com/mirsdairyfree/"
+  }
+}
