@@ -80,3 +80,7 @@ Common tags used in recipes:
 - `no-bake` - No oven or stovetop needed
 - `family-favorite` - Family favorite recipe
 - `tandoori` - Tandoori-spiced (yogurt and spice marinade)
+- `high-protein` - High in protein
+- `low-fat` - Low in fat
+- `greek-yogurt` - Built around Greek yogurt
+- `whey` - Uses whey protein powder

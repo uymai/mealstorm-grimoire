@@ -1,0 +1,37 @@
+{
+  "title": "Protein Cookie Dough (No-Bake)",
+  "description": "Thick, spoonable chocolate chip cookie dough made with whey and 0% Greek yogurt, with about 46g protein per bowl.",
+  "prepTime": "5 minutes",
+  "cookTime": "1 minute",
+  "servings": 1,
+  "portion": {
+    "size": "1 bowl (about 1 cup, 270g of dough)"
+  },
+  "difficulty": "Easy",
+  "dateAdded": "2026-11-27",
+  "tags": ["snack", "dessert", "high-protein", "no-bake", "low-fat", "greek-yogurt", "whey"],
+  "ingredients": [
+    "170g 0% plain Greek yogurt",
+    "31g (1 scoop) vanilla whey protein",
+    "15g oat flour (or blitzed quick oats)",
+    "1 tsp maple syrup",
+    "1/4 tsp vanilla extract",
+    "Pinch of salt",
+    "10g mini dark chocolate chips"
+  ],
+  "instructions": [
+    "Microwave 15g oat flour in a small bowl for 45–60 seconds, stirring once, until it smells nutty. This removes the raw-flour taste. Let it cool for 1 minute.",
+    "In a bowl, stir together 31g whey protein, the 15g toasted oat flour and a pinch of salt until there are no lumps.",
+    "Add 1 tsp maple syrup, 1/4 tsp vanilla extract and about 115g of the Greek yogurt. Mash and stir with a fork until a thick dough forms.",
+    "Add the remaining 55g Greek yogurt one spoonful at a time until it looks like cookie dough. Adding it all at once makes whey go gummy.",
+    "Fold in 10g mini dark chocolate chips, saving a few to press on top.",
+    "Refrigerate for 15–20 minutes to firm up, or eat right away."
+  ],
+  "macros": {
+    "calories": 358,
+    "protein": 46,
+    "carbs": 30,
+    "fat": 6
+  },
+  "notes": "Protein works out to about 12.8g per 100 kcal. For a peanut butter version, add 1 tbsp powdered peanut butter (+25 kcal, +3g protein, <1g fat) instead of real PB, which adds about 8g fat. If using Vega instead of whey, add a splash of milk because it absorbs more liquid. Keeps up to 2 days covered in the fridge."
+}
